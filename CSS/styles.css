@@ -1,3 +1,4 @@
+/*This is a CSS comment - command slash for short*/
 img { 
 	max-width: 100%;
 }
@@ -27,12 +28,15 @@ h2, h3 {
 	font-family: 'Raelway', sans-serif;
 	font-weight: normal;
 }
+h3 {
+	font-size: 1.00em;
 
+}
 h1 {
 	font-size: 2.5em;
 }
 
-h2, h3 {
+h2, {
 	font-size: 1.25em;
 }
 
@@ -46,6 +50,7 @@ header h1, header h2 {
 	text-align: center;
 }
 
+/*NAVAGATION BAR*/
 nav {
 	background: white;
 	text-align: center;
@@ -98,6 +103,8 @@ footer p {
 	border-radius: 15%;
 	margin: auto;
 }
+
+/*CONTACT US SECTION*/
 #contact-list ul{
 	list-style:none;
 	margin: 0;
@@ -107,7 +114,7 @@ footer p {
 	margin: 0 0 20px 0;
 	padding: 0;
 }
-#contact-list a:hover i.contact-icon, li.social-icon a:hover {
+#contact-list a:hover i.contact-icon {
 	transition-duration:500ms;
 	background: white;
 	color: #00858a;
@@ -117,6 +124,7 @@ footer p {
 	margin: 0 15px;
 }
 
+/*SOCIAL ICONS*/
 .social-icon-list {
 	list-style: none;
 	display: block;
@@ -130,10 +138,24 @@ li.social-icon {
 	margin: 0 6px;
 }
 
-li.social-icon a{
+li.social-icon a {
 	transition-duration: 500ms;
 	color: #fff;
 	padding: 10px;
 	background: #00858a;
 	border-radius: 25%;
+}
+#about-me img { 
+	width: 50%;
+
+}
+
+li.social-icon a:hover {
+	transition-duration:500ms;
+	background: white;
+	color: #00858a;
+}
+/*PORTFOLIO SECTION*/
+#portfolio li:nth-child(3){
+	clear: left;
 }
